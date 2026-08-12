@@ -1,0 +1,71 @@
+name: RAGAS Evaluation
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for running evaluation"
+        required: false
+        default: "Manual evaluation run"
+  schedule:
+    # Run weekly on Sunday at 6:00 AM IST (00:30 UTC)
+    - cron: "30 0 * * 0"
+
+jobs:
+  evaluate:
+    name: Run RAGAS Evaluation
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        working-directory: upsc-memory-os/backend
+        run: |
+          pip install -r requirements.txt
+          pip install ragas==0.1.21 langchain-google-genai datasets
+
+      - name: Run RAGAS evaluation
+        working-directory: upsc-memory-os/backend
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          QDRANT_API_KEY: ${{ secrets.QDRANT_API_KEY }}
+          JWT_SECRET: ${{ secrets.JWT_SECRET }}
+          ENVIRONMENT: ci
+        run: python -m evaluation.evaluate_rag
+
+      - name: Upload evaluation results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ragas-eval-results-${{ github.run_number }}
+          path: upsc-memory-os/backend/evaluation/eval_results.csv
+          retention-days: 90
+
+      - name: Post results summary
+        if: always()
+        working-directory: upsc-memory-os/backend/evaluation
+        run: |
+          if [ -f eval_results.csv ]; then
+            echo "## 📊 RAGAS Evaluation Results" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Run:** ${{ github.run_number }} | **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+            echo "**Reason:** ${{ inputs.reason || 'Scheduled run' }}" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            head -1 eval_results.csv >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "📎 Full results available in the workflow artifacts." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ❌ RAGAS Evaluation Failed" >> $GITHUB_STEP_SUMMARY
+            echo "No results file was generated." >> $GITHUB_STEP_SUMMARY
+          fi

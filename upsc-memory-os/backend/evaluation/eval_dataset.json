@@ -1,0 +1,332 @@
+[
+  {
+    "question": "What was the total volume of the Overnight Segment in money markets as on June 02, 2026?",
+    "ground_truth": "The total volume of the Overnight Segment (I+II+III+IV) was ₹6,91,229.59 crore as on June 02, 2026.",
+    "query_type": "factual",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the weighted average rate and volume for Triparty Repo in the Overnight Segment on June 02, 2026?",
+    "ground_truth": "In the Overnight Segment on June 02, 2026, the Triparty Repo had a volume of ₹4,78,506.10 crore and a weighted average rate of 5.20 per cent, with a range of 4.90–5.30 per cent.",
+    "query_type": "factual",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What is the Standing Deposit Facility (SDF) and what rate was applied to it on June 02, 2026?",
+    "ground_truth": "The Standing Deposit Facility (SDF) is a tool under the RBI's Liquidity Adjustment Facility through which banks park excess funds with the RBI without any collateral. On June 02, 2026, the SDF was operated at a rate of 5.00 per cent, and the amount absorbed was ₹1,40,641.00 crore for a 1-day tenor maturing on June 03, 2026.",
+    "query_type": "definition",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "Compare the weighted average rates of Call Money and Repo in Corporate Bond in the Overnight Segment as on June 02, 2026.",
+    "ground_truth": "In the Overnight Segment as on June 02, 2026, Call Money had a weighted average rate of 5.28 per cent with a range of 4.60–5.50 per cent, while Repo in Corporate Bond had a higher weighted average rate of 5.31 per cent with a range of 5.28–5.55 per cent. Thus, Repo in Corporate Bond was costlier than Call Money by 3 basis points on a weighted average basis.",
+    "query_type": "comparative",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the net liquidity position (injection or absorption) from today's operations as on June 02, 2026, and what does a negative value signify?",
+    "ground_truth": "The net liquidity from today's operations (June 02, 2026) was -₹1,22,840.00 crore, indicating a net absorption of ₹1,22,840.00 crore from the banking system. A negative value signifies that the RBI absorbed more liquidity (via SDF) than it injected (via Repo and MSF), indicating a liquidity surplus in the system.",
+    "query_type": "analytical",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What is the Marginal Standing Facility (MSF) and what was the amount availed and rate charged on June 02, 2026?",
+    "ground_truth": "The Marginal Standing Facility (MSF) is a window through which scheduled commercial banks can borrow overnight from the RBI against approved government securities at a rate above the repo rate, providing a safety valve for unanticipated liquidity shortfalls. On June 02, 2026, the amount availed under MSF was ₹356.00 crore at a rate of 5.50 per cent, for a 1-day tenor maturing on June 03, 2026.",
+    "query_type": "definition",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What were the five sub-segments listed under the Term Segment in money market operations on June 02, 2026, and what were their volumes?",
+    "ground_truth": "The five sub-segments under the Term Segment on June 02, 2026 were: (I) Notice Money with a volume of ₹785.00 crore; (II) Term Money with a volume of ₹397.50 crore; (III) Triparty Repo with a volume of ₹4,775.50 crore; (IV) Market Repo with a volume of ₹1,387.97 crore; and (V) Repo in Corporate Bond with a volume of ₹0.00 crore (no transactions).",
+    "query_type": "enumerative",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the average daily cash reserve requirement for Scheduled Commercial Banks for the fortnight ending June 15, 2026?",
+    "ground_truth": "The average daily cash reserve requirement for Scheduled Commercial Banks for the fortnight ending June 15, 2026 was ₹7,90,713.00 crore.",
+    "query_type": "factual",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the net durable liquidity position as on May 15, 2026, and how is it different from net liquidity from today's operations?",
+    "ground_truth": "The net durable liquidity as on May 15, 2026 was a surplus of ₹2,65,955.00 crore. Net durable liquidity refers to the structural or medium-term liquidity in the banking system, reflecting persistent surplus or deficit. In contrast, net liquidity from today's operations (-₹1,22,840.00 crore on June 02, 2026) refers only to the liquidity impact of that single day's RBI operations (repo, MSF, and SDF), and can fluctuate daily. Durable liquidity is a longer-term measure while today's operations reflect short-term adjustments.",
+    "query_type": "analytical",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the Government of India Surplus Cash Balance reckoned for auction as on June 02, 2026?",
+    "ground_truth": "The Government of India Surplus Cash Balance reckoned for auction as on June 02, 2026 was ₹17,445.00 crore.",
+    "query_type": "factual",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "Compare the overnight and term segment operations in the money market on June 02, 2026, in terms of volume and weighted average rate.",
+    "ground_truth": "The Overnight Segment had a significantly larger total volume of ₹6,91,229.59 crore with a weighted average rate of 5.19 per cent. Among its components: Call Money (₹18,057.45 crore, 5.28%), Triparty Repo (₹4,78,506.10 crore, 5.20%), Market Repo (₹1,87,632.99 crore, 5.16%), and Repo in Corporate Bond (₹7,033.05 crore, 5.31%). The Term Segment was much smaller: Notice Money (₹785.00 crore, 5.38%), Term Money (₹397.50 crore), Triparty Repo (₹4,775.50 crore, 5.27%), Market Repo (₹1,387.97 crore, 5.64%), and no transactions in Repo in Corporate Bond. The Term Segment generally showed higher rates than the Overnight Segment.",
+    "query_type": "comparative",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What were the tenor and cut-off rate of the Variable Rate Repo Operation conducted on June 02, 2026, and what was its maturity date?",
+    "ground_truth": "The Variable Rate Repo Operation conducted on Tuesday, June 02, 2026 had a tenor of 3 days, a cut-off rate of 5.26 per cent, and a maturity date of Friday, June 05, 2026. The amount transacted was ₹17,445.00 crore.",
+    "query_type": "factual",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What is the Standing Liquidity Facility (SLF) availed from RBI and how did it contribute to the net outstanding liquidity position on June 02, 2026?",
+    "ground_truth": "The Standing Liquidity Facility (SLF) availed from RBI includes refinance facilities extended by the RBI to eligible institutions. On June 02, 2026, the SLF availed was ₹10,504.29 crore. This amount constituted the total net liquidity injected from outstanding operations (Row E = ₹10,504.29 crore, injection). When combined with today's net absorption of -₹1,22,840.00 crore, the net liquidity injected from outstanding operations including today's operations (Row F) was -₹1,12,335.71 crore, indicating an overall net absorption.",
+    "query_type": "analytical",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What is the primary objective of The Tribunals Reforms Bill, 2021, and which earlier legislative instrument does it replace?",
+    "ground_truth": "The primary objective of The Tribunals Reforms Bill, 2021 is to dissolve certain existing appellate bodies and transfer their functions, such as adjudication of appeals, to other existing judicial bodies. The Bill replaces a similar Ordinance that was promulgated in April 2021.",
+    "query_type": "factual",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Under The Tribunals Reforms Bill, 2021, what appellate entity has been proposed for cases arising under the Patents Act, 1970 and the Trade Marks Act, 1999?",
+    "ground_truth": "Under The Tribunals Reforms Bill, 2021, for both the Patents Act, 1970 and the Trade Marks Act, 1999, the proposed appellate entity is the High Court. In both cases, the existing Appellate Board is proposed to be dissolved and its functions transferred to the High Court.",
+    "query_type": "factual",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Compare the proposed appellate transfer for the Copyright Act, 1957 and the Customs Act, 1962 under the Tribunals Reforms Bill, 2021.",
+    "ground_truth": "Under the Tribunals Reforms Bill, 2021, for the Copyright Act, 1957, the Appellate Board's functions are proposed to be transferred to the Commercial Court or the Commercial Division of a High Court (constituted under the Commercial Courts Act, 2015). For the Customs Act, 1962, the Authority for Advance Rulings is proposed to be replaced by the High Court. Thus, while the Customs Act transfer is to a regular High Court, the Copyright Act transfer is specifically to a commercial judicial forum.",
+    "query_type": "comparative",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "What is a Search-cum-Selection Committee under the Tribunals Reforms Bill, 2021, and who are its members for central tribunals?",
+    "ground_truth": "A Search-cum-Selection Committee under the Tribunals Reforms Bill, 2021 is the body that recommends appointments of the Chairperson and Members of tribunals to the central government. For central tribunals, it consists of: (i) the Chief Justice of India, or a Supreme Court Judge nominated by him, as the Chairperson (with casting vote); (ii) two Secretaries nominated by the central government; (iii) the sitting or outgoing Chairperson, or a retired Supreme Court Judge, or a retired Chief Justice of a High Court; and (iv) the Secretary of the Ministry under which the Tribunal is constituted (with no voting right).",
+    "query_type": "definition",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "How does the composition of the Search-cum-Selection Committee for State Administrative Tribunals differ from that for central tribunals under the Tribunals Reforms Bill, 2021?",
+    "ground_truth": "For central tribunals, the Search-cum-Selection Committee is chaired by the Chief Justice of India or a nominated Supreme Court Judge (with casting vote), includes two centrally nominated Secretaries, a sitting/outgoing Chairperson or a retired Supreme Court/High Court Chief Justice, and the Secretary of the concerned Ministry (no voting right). For State Administrative Tribunals, the committee is chaired by the Chief Justice of the High Court of the concerned state (with casting vote), includes the Chief Secretary of the state and the Chairman of the State Public Service Commission, a sitting/outgoing Chairperson or a retired High Court Judge, and the Secretary or Principal Secretary of the state's general administrative department (no voting right). The key difference is in the presiding authority (CJI vs. State HC Chief Justice) and the state-specific composition.",
+    "query_type": "comparative",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "What are the eligibility and term of office conditions for tribunal Chairpersons and Members under the Tribunals Reforms Bill, 2021?",
+    "ground_truth": "Under the Tribunals Reforms Bill, 2021: (i) The term of office is four years for both Chairpersons and Members; (ii) The upper age limit is 70 years for the Chairperson and 67 years for Members; (iii) A minimum age requirement of 50 years applies for appointment as either a Chairperson or a Member.",
+    "query_type": "enumerative",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "What changes did the Tribunals Reforms Bill, 2021 make to the Finance Act, 2017 regarding tribunal governance?",
+    "ground_truth": "The Finance Act, 2017 had merged tribunals based on domain and empowered the central government to notify rules on: (i) composition of search-cum-selection committees, (ii) qualifications of tribunal members, and (iii) their terms and conditions of service such as removal and salaries. The Tribunals Reforms Bill, 2021 removes these provisions from the Finance Act, 2017. Instead, provisions on the composition of selection committees and term of office are now included directly in the Bill itself, while qualifications of members and other terms and conditions of service will continue to be notified by the central government.",
+    "query_type": "analytical",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Under the Tribunals Reforms Bill, 2021, what body is proposed to handle appeals under the Airports Authority of India Act, 1994, and how are the functions split?",
+    "ground_truth": "Under the Tribunals Reforms Bill, 2021, the Airport Appellate Tribunal under the Airports Authority of India Act, 1994 is to be dissolved, and its functions are split between two bodies: (i) the Central Government, for disputes arising from the disposal of properties left on airport premises by unauthorised occupants; and (ii) the High Court, for appeals against orders of an eviction officer.",
+    "query_type": "analytical",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "List all the Acts and their corresponding existing appellate bodies that are proposed to be dissolved under The Tribunals Reforms Bill, 2021.",
+    "ground_truth": "The following Acts and their appellate bodies are proposed to be dissolved under the Bill: (1) The Cinematograph Act, 1952 – Appellate Tribunal; (2) The Trade Marks Act, 1999 – Appellate Board; (3) The Copyright Act, 1957 – Appellate Board; (4) The Customs Act, 1962 – Authority for Advance Rulings; (5) The Patents Act, 1970 – Appellate Board; (6) The Airports Authority of India Act, 1994 – Airport Appellate Tribunal; (7) The Control of National Highways (Land and Traffic) Act, 2002 – Airport Appellate Tribunal; (8) The Geographical Indications of Goods (Registration and Protection) Act, 1999 – Appellate Board.",
+    "query_type": "enumerative",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Under the Tribunals Reforms Bill, 2021, to what entity are appeals under the Control of National Highways (Land and Traffic) Act, 2002 proposed to be transferred?",
+    "ground_truth": "Under the Tribunals Reforms Bill, 2021, appeals under the Control of National Highways (Land and Traffic) Act, 2002 are proposed to be transferred to a Civil Court, specifically a Civil Court of original jurisdiction in a district, which also includes the High Court in exercise of its ordinary original civil jurisdiction. The existing Airport Appellate Tribunal handling these cases is to be dissolved.",
+    "query_type": "factual",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Who introduced The Tribunals Reforms Bill, 2021 in Parliament, and on what date was it introduced?",
+    "ground_truth": "The Tribunals Reforms Bill, 2021 was introduced in Lok Sabha by the Finance Minister, Ms. Nirmala Sitharaman, on August 2, 2021.",
+    "query_type": "factual",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Analyse the significance of the casting vote provision for the Chairperson of the Search-cum-Selection Committee under the Tribunals Reforms Bill, 2021.",
+    "ground_truth": "The casting vote is given to the Chairperson of the Search-cum-Selection Committee — the Chief Justice of India (or nominated Supreme Court Judge) for central tribunals, and the Chief Justice of the concerned High Court for state tribunals. This is significant because it ensures that the judiciary holds the decisive tie-breaking authority in tribunal appointments, safeguarding judicial independence. It prevents the executive (represented by the Secretaries and Ministry representative) from dominating the selection process. Notably, the Secretary of the Ministry under which the Tribunal is constituted has no voting right at all, further insulating the process from direct executive influence over specific tribunals.",
+    "query_type": "analytical",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "Within how many months must the central government act on the recommendations of a Search-cum-Selection Committee under the Tribunals Reforms Bill, 2021?",
+    "ground_truth": "The central government must decide on the recommendations of selection committees preferably within three months from the date of the recommendation.",
+    "query_type": "factual",
+    "source_document": "PRS Bill Summary - Tribunals Reforms Bill 2021"
+  },
+  {
+    "question": "What was Maharashtra's Total Fertility Rate (TFR) in NFHS-5 (2019-20) compared to NFHS-4 (2015-16), and what does this indicate?",
+    "ground_truth": "Maharashtra's Total Fertility Rate (TFR) declined from 1.9 children per woman in NFHS-4 (2015-16) to 1.7 in NFHS-5 (2019-20). Disaggregated by residence, the urban TFR was 1.5 and the rural TFR was 1.9 in NFHS-5. A TFR of 1.7 is below the replacement level of 2.1, indicating that Maharashtra's population is not replacing itself and pointing to an advanced demographic transition.",
+    "query_type": "analytical",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What percentage of children under age 5 years in Maharashtra were stunted and underweight according to NFHS-5 (2019-20)?",
+    "ground_truth": "According to NFHS-5 (2019-20) for Maharashtra, 35.2 per cent of children under 5 years were stunted (height-for-age below -2 standard deviations), and 36.1 per cent were underweight (weight-for-age below -2 standard deviations). The stunting figure was slightly higher than in NFHS-4 (34.4%), while underweight marginally improved from 36.0 per cent in NFHS-4.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "Compare the prevalence of anaemia among children age 6-59 months and non-pregnant women age 15-49 years in Maharashtra between NFHS-4 and NFHS-5.",
+    "ground_truth": "Anaemia among children age 6-59 months worsened significantly, rising from 53.8 per cent in NFHS-4 (2015-16) to 68.9 per cent in NFHS-5 (2019-20). Similarly, anaemia among non-pregnant women age 15-49 years rose from 47.9 per cent in NFHS-4 to 54.5 per cent in NFHS-5. Both indicate a deterioration in nutritional outcomes despite other health improvements in the state.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the percentage of institutional births in Maharashtra in NFHS-5 (2019-20), and how does it compare between urban and rural areas?",
+    "ground_truth": "In NFHS-5 (2019-20), the overall institutional birth rate in Maharashtra was 94.7 per cent, up from 90.3 per cent in NFHS-4. Disaggregated by residence, urban areas recorded 96.7 per cent institutional births and rural areas recorded 93.1 per cent. Urban areas thus had a higher rate by 3.6 percentage points. Of institutional births, 50.8 per cent occurred in public facilities in urban areas and 59.5 per cent in rural areas.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What is the 'Unmet Need for Family Planning' as defined in the NFHS-5 fact sheet, and what was the total unmet need in Maharashtra?",
+    "ground_truth": "Unmet need for family planning refers to fecund women who are not using contraception but who wish to either postpone the next birth (spacing) or stop childbearing altogether (limiting). It includes women at risk of pregnancy not using contraception who don't want to become pregnant within two years or are unsure, pregnant women with mistimed or unwanted pregnancies, and postpartum amenorrhoeic women within two years following a mistimed or unwanted birth who are not using contraception. Women classified as infecund have no unmet need. In Maharashtra, the total unmet need was 9.6 per cent in NFHS-5 (2019-20), marginally lower than 9.7 per cent in NFHS-4 (2015-16).",
+    "query_type": "definition",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What percentage of women age 20-24 years in Maharashtra were married before age 18, and how did this vary between urban and rural areas in NFHS-5?",
+    "ground_truth": "In NFHS-5 (2019-20), 21.9 per cent of women age 20-24 years in Maharashtra were married before age 18. There was a stark urban-rural divide: 15.7 per cent in urban areas versus 27.6 per cent in rural areas, indicating that child marriage remains predominantly a rural phenomenon. This also reflects an improvement from NFHS-4, where the figure was 26.3 per cent.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "List the key new topics introduced in NFHS-5 that were not covered in NFHS-4.",
+    "ground_truth": "NFHS-5 introduced the following new topics not covered in NFHS-4: (1) Preschool education; (2) Disability; (3) Access to a toilet facility; (4) Death registration; (5) Bathing practices during menstruation; (6) Methods and reasons for abortion; (7) Measurement of waist and hip circumferences (expanded CAB testing); (8) Expanded age range for blood pressure and blood glucose measurement. Additionally, HIV testing was dropped in NFHS-5.",
+    "query_type": "enumerative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What were the caesarean section rates in public vs. private health facilities in Maharashtra according to NFHS-5 (2019-20)?",
+    "ground_truth": "In NFHS-5 (2019-20) for Maharashtra, the overall caesarean section rate was 25.4 per cent. In private health facilities, 39.1 per cent of births were delivered by caesarean section, compared to 18.3 per cent in public health facilities — more than double the rate. In NFHS-4 (2015-16), private and public facility C-section rates were 33.1 per cent and 13.1 per cent respectively, indicating an increase across both sectors.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the full vaccination coverage among children age 12-23 months in Maharashtra in NFHS-5, based on vaccination card information only?",
+    "ground_truth": "Based on vaccination card information only, 81.7 per cent of children age 12-23 months in Maharashtra were fully vaccinated in NFHS-5 (2019-20). This was the same for both urban (81.6%) and rural (81.7%) areas. This was an improvement from 78.4 per cent in NFHS-4 (2015-16).",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the proportion of women in Maharashtra who had elevated blood pressure (systolic ≥140 mm Hg and/or diastolic ≥90 mm Hg) or were taking medicine to control blood pressure in NFHS-5?",
+    "ground_truth": "In NFHS-5 (2019-20), 23.1 per cent of women age 15 years and above in Maharashtra had elevated blood pressure (Systolic ≥140 mm of Hg and/or Diastolic ≥90 mm of Hg) or were taking medicine to control blood pressure. The figure was 23.8 per cent in urban areas and 22.6 per cent in rural areas.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "Compare the internet usage rates among men and women in Maharashtra between urban and rural areas in NFHS-5 (2019-20).",
+    "ground_truth": "In NFHS-5 (2019-20) for Maharashtra, internet usage showed significant gender and urban-rural gaps. Among women, 54.3 per cent in urban areas had ever used the internet compared to only 23.7 per cent in rural areas (total: 38.0%). Among men, 76.8 per cent in urban areas had ever used the internet compared to 47.2 per cent in rural areas (total: 61.5%). Men used the internet more than women across both areas. The urban-rural gap was larger for women (30.6 percentage points) than for men (29.6 percentage points).",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the prevalence of wasting and severe wasting among children under 5 years in rural Maharashtra in NFHS-5 (2019-20)?",
+    "ground_truth": "In NFHS-5 (2019-20), among children under 5 years in rural Maharashtra, the prevalence of wasting (weight-for-height below -2 standard deviations) was 27.3 per cent, and the prevalence of severe wasting (below -3 standard deviations) was 11.9 per cent. Both figures were higher than the urban Maharashtra figures of 23.0 per cent for wasting and 9.5 per cent for severe wasting.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What percentage of ever-married women age 18-49 years in Maharashtra had ever experienced spousal violence according to NFHS-5, and how did this vary by residence?",
+    "ground_truth": "In NFHS-5 (2019-20), 25.2 per cent of ever-married women age 18-49 years in Maharashtra had ever experienced spousal violence (defined as physical and/or sexual violence). Rural women had a significantly higher prevalence at 28.6 per cent compared to urban women at 21.0 per cent. This was also slightly higher than the NFHS-4 national comparator of 21.3 per cent for Maharashtra.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What does 'comprehensive knowledge of HIV/AIDS' mean as defined in the NFHS-5 fact sheet, and what was the level among women and men in Maharashtra?",
+    "ground_truth": "Comprehensive knowledge of HIV/AIDS means knowing all of the following: (1) that consistent use of condoms every time one has sex can reduce the chance of getting HIV/AIDS; (2) that having just one uninfected faithful sex partner can reduce the chance of getting HIV/AIDS; (3) that a healthy-looking person can have HIV/AIDS; and (4) rejecting two common misconceptions about transmission or prevention of HIV/AIDS. In Maharashtra (NFHS-5, 2019-20), 34.4 per cent of women age 15-49 years and 42.6 per cent of men age 15-49 years had comprehensive knowledge of HIV/AIDS.",
+    "query_type": "definition",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the sample size of NFHS-5 fieldwork in Maharashtra, and by which organisations was the fieldwork conducted?",
+    "ground_truth": "NFHS-5 fieldwork in Maharashtra was conducted from June 19, 2019 to December 30, 2019. Information was gathered from 31,643 households, 33,755 women, and 5,497 men. The fieldwork was conducted by two organisations: Indian Institute of Health Management Research (IIHMR) and TRIOs Development Support (P) Ltd.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What is the PIB Press Release (Cabinet.pdf) about? Provide a summary based on available content.",
+    "ground_truth": "The Cabinet.pdf document uploaded appears to be a PIB (Press Information Bureau) Press Release. However, the document content was not extractable from the provided PDF — both pages of the Cabinet.pdf returned empty content in the context. Therefore, no questions can be accurately derived from this document without risking hallucination.",
+    "query_type": "factual",
+    "source_document": "PIB Cabinet Press Release"
+  },
+  {
+    "question": "What was the sex ratio of the total population and sex ratio at birth in Maharashtra in NFHS-5 (2019-20) compared to NFHS-4?",
+    "ground_truth": "In NFHS-5 (2019-20), Maharashtra's total population sex ratio was 966 females per 1,000 males (urban: 954, rural: 977), compared to 952 in NFHS-4 (2015-16) — indicating an improvement. However, the sex ratio at birth for children born in the last five years was 913 females per 1,000 males (urban: 878, rural: 941) in NFHS-5, a deterioration from 924 in NFHS-4. The low sex ratio at birth, especially in urban Maharashtra (878), remains a concern despite overall demographic improvements.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the proportion of households using clean fuel for cooking in Maharashtra in NFHS-5 (2019-20), and how did urban and rural figures differ?",
+    "ground_truth": "In NFHS-5 (2019-20), 79.7 per cent of households in Maharashtra used clean fuel for cooking (electricity, LPG/natural gas, or biogas). There was a significant urban-rural divide: 95.6 per cent of urban households used clean fuel compared to only 65.4 per cent in rural households, a gap of 30.2 percentage points. This was a major improvement from 59.9 per cent overall in NFHS-4 (2015-16).",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the neonatal mortality rate (NNMR) and infant mortality rate (IMR) in Maharashtra as reported in NFHS-5 (2019-20)?",
+    "ground_truth": "In NFHS-5 (2019-20), Maharashtra's neonatal mortality rate (NNMR) was 16.5 per 1,000 live births (urban: 15.1, rural: 17.6), compared to 16.2 in NFHS-4. The infant mortality rate (IMR) was 23.2 per 1,000 live births (urban: 22.6, rural: 23.7), compared to 23.7 in NFHS-4 — showing a marginal improvement overall.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What is Notice Money in the context of money market operations, and how does it differ from Term Money?",
+    "ground_truth": "In the context of RBI money market operations, Notice Money refers to uncollateralised (unsecured) interbank transactions with a tenor of 2 to 14 days, listed under the Term Segment. On June 02, 2026, it had a volume of ₹785.00 crore and a weighted average rate of 5.38 per cent with a range of 4.85–5.45 per cent. Term Money, on the other hand, refers to uncollateralised transactions of 15 days to one year tenor. On June 02, 2026, Term Money had a volume of ₹397.50 crore with a range of 5.50–6.20 per cent (no weighted average rate reported). Thus, the key difference is tenor: Notice Money covers 2–14 days while Term Money covers 15 days to 1 year, and Term Money generally commands a higher rate due to longer maturity.",
+    "query_type": "definition",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What was the cash balance of Scheduled Commercial Banks with the RBI as on June 02, 2026, and how did it compare to the average daily cash reserve requirement for the relevant fortnight?",
+    "ground_truth": "As on June 02, 2026, the cash balance of Scheduled Commercial Banks with the RBI was ₹8,69,634.87 crore. The average daily cash reserve requirement for the fortnight ending June 15, 2026 was ₹7,90,713.00 crore. This means banks were maintaining cash reserves exceeding the requirement by approximately ₹78,921.87 crore, indicating a comfortable liquidity position in the banking system relative to CRR obligations.",
+    "query_type": "analytical",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What are the four Survey Schedules used in NFHS-5, and what type of information does each capture?",
+    "ground_truth": "NFHS-5 used four Survey Schedules: (1) Household Schedule — covered all usual household members and visitors, socio-economic characteristics, water/sanitation/hygiene, health insurance, disabilities, land ownership, deaths in the past 3 years, and mosquito net use. (2) Woman's Schedule — covered woman's characteristics, marriage, fertility, contraception, children's immunizations and healthcare, nutrition, reproductive health, sexual behaviour, HIV/AIDS, women's empowerment, and domestic violence. (3) Man's Schedule — covered man's characteristics, marriage, number of children, contraception, fertility preferences, nutrition, sexual behaviour, health issues, and attitudes towards gender roles and HIV/AIDS. (4) Biomarker Schedule — covered height, weight, haemoglobin, waist and hip circumference for women and men; blood pressure and blood glucose for those 15 years and above; and finger-prick blood for HbA1c, malaria parasites, and Vitamin D3 testing.",
+    "query_type": "enumerative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "Analyse the trend in use of modern family planning methods in Maharashtra between NFHS-4 and NFHS-5, with specific reference to the shift between female sterilization and condom use.",
+    "ground_truth": "In Maharashtra, the use of any modern method among currently married women age 15-49 years remained relatively stable, rising slightly from 62.6 per cent in NFHS-4 (2015-16) to 63.8 per cent in NFHS-5 (2019-20). However, the composition shifted: female sterilization declined significantly from 50.7 per cent to 49.1 per cent overall, with a particularly sharp decline in rural areas (53.3%) compared to urban (44.0%). In contrast, condom use increased markedly from 7.1 per cent in NFHS-4 to 10.2 per cent in NFHS-5, with urban areas showing 14.1 per cent use. This indicates a modest diversification in method mix away from terminal methods toward spacing methods, though sterilization remains dominant.",
+    "query_type": "analytical",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the range of rates for Market Repo in the Overnight and Term Segments on June 02, 2026, and what does the difference suggest about liquidity conditions?",
+    "ground_truth": "On June 02, 2026, Market Repo in the Overnight Segment had a rate range of 3.00–5.35 per cent with a weighted average of 5.16 per cent. In the Term Segment, Market Repo had a range of 5.35–5.75 per cent with a weighted average of 5.64 per cent. The overnight Market Repo had a very wide lower bound of 3.00 per cent, suggesting some transactions occurred at significantly sub-policy rates, possibly due to excess liquidity with certain participants. The higher rates and tighter range in the Term Segment reflect the premium demanded for locking in funds for longer durations. The overall pattern is consistent with a liquidity-surplus environment where short-term rates are generally anchored near or below the repo rate.",
+    "query_type": "analytical",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "What percentage of women in Maharashtra had a bank or savings account that they themselves use, and how did this compare between urban and rural areas in NFHS-5?",
+    "ground_truth": "In NFHS-5 (2019-20), 72.8 per cent of women age 15-49 years in Maharashtra had a bank or savings account that they themselves use. Urban women had higher usage at 75.0 per cent compared to 70.9 per cent in rural areas. This represented a substantial improvement from 45.3 per cent in NFHS-4 (2015-16), reflecting the impact of financial inclusion initiatives.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What are the key components used to calculate net liquidity injection or absorption under RBI's LAF framework, as indicated in the RBI money market operations press release?",
+    "ground_truth": "As per the footnotes in the RBI money market operations press release, net liquidity is calculated as: Net Liquidity = Repo + MSF + SLF − Reverse Repo − SDF. Injection components are: Repo (variable rate and fixed rate), Marginal Standing Facility (MSF), and Standing Liquidity Facility (SLF). Absorption components are: Reverse Repo and Standing Deposit Facility (SDF). A positive net figure indicates net liquidity injection into the banking system, while a negative figure indicates net absorption.",
+    "query_type": "definition",
+    "source_document": "RBI Money Market Operations"
+  },
+  {
+    "question": "Compare the blood sugar level (high or very high, or on medication) among women and men aged 15 years and above in Maharashtra across urban and rural areas in NFHS-5.",
+    "ground_truth": "In NFHS-5 (2019-20) for Maharashtra, the proportion with high or very high blood sugar (>140 mg/dl) or taking medicine to control blood sugar was: Women — 14.6% urban, 10.7% rural, 12.4% total. Men — 15.3% urban, 12.4% rural, 13.6% total. Men had a higher overall prevalence than women (13.6% vs 12.4%). In both sexes, urban areas showed higher prevalence than rural, suggesting that lifestyle-related metabolic risks are more prevalent in urban settings.",
+    "query_type": "comparative",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "What was the percentage of mothers in Maharashtra who received postnatal care from a skilled health worker within 2 days of delivery, and how did it compare to NFHS-4?",
+    "ground_truth": "In NFHS-5 (2019-20), 85.4 per cent of mothers in Maharashtra received postnatal care from a doctor, nurse, LHV, ANM, midwife, or other health personnel within 2 days of delivery. Urban areas recorded 87.3 per cent and rural areas 83.8 per cent. This was an improvement from 78.5 per cent in NFHS-4 (2015-16), indicating better postnatal care coverage across the state.",
+    "query_type": "factual",
+    "source_document": "NFHS-5 Maharashtra Fact Sheet"
+  },
+  {
+    "question": "Enumerate all the footnote clarifications that apply specifically to the RBI's LAF/MSF/SDF operations as cited in the June 02, 2026 money market operations press release.",
+    "ground_truth": "The following footnote clarifications apply specifically to RBI's LAF/MSF/SDF operations in the press release: (1) SDF operations are governed as per Press Release No. 2022-2023/41 dated April 08, 2022. (2) Variable Rate operations are as per Press Release No. 2025-2026/1201 dated September 30, 2025. (3) Net liquidity is calculated as Repo + MSF + SLF − Reverse Repo − SDF. (4) MSF and SDF footnotes specify Press Release No. 2023-2024/1548 dated December 27, 2023. (5) The Government of India Surplus Cash Balance reckoning is as per Press Release No. 2014-2015/1971 dated March 19, 2015. (6) SLF includes refinance facilities extended by RBI. (7) The CRR notification is as per RBI/2025-26/148 DOR.RET.REC.354/12.01.001/2025-26 dated December 11, 2025.",
+    "query_type": "enumerative",
+    "source_document": "RBI Money Market Operations"
+  }
+]
