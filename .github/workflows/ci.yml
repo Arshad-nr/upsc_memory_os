@@ -133,3 +133,5 @@ jobs:
           aws ecs wait services-stable \
             --cluster ${{ env.ECS_CLUSTER }} \
             --services ${{ env.ECS_BACKEND_SERVICE }} ${{ env.ECS_FRONTEND_SERVICE }}
+        env:
+          AWS_MAX_ATTEMPTS: 80

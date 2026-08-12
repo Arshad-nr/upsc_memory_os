@@ -37,10 +37,10 @@ resource "aws_ecs_task_definition" "backend" {
     ]
 
     secrets = [
-      { name = "DATABASE_URL",  valueFrom = aws_secretsmanager_secret.database_url.arn },
+      { name = "DATABASE_URL", valueFrom = aws_secretsmanager_secret.database_url.arn },
       { name = "GEMINI_API_KEY", valueFrom = aws_secretsmanager_secret.gemini_api_key.arn },
-      { name = "JWT_SECRET",    valueFrom = aws_secretsmanager_secret.jwt_secret.arn },
-      { name = "QDRANT_URL",    valueFrom = aws_secretsmanager_secret.qdrant_url.arn },
+      { name = "JWT_SECRET", valueFrom = aws_secretsmanager_secret.jwt_secret.arn },
+      { name = "QDRANT_URL", valueFrom = aws_secretsmanager_secret.qdrant_url.arn },
       { name = "QDRANT_API_KEY", valueFrom = aws_secretsmanager_secret.qdrant_api_key.arn },
     ]
 
@@ -48,7 +48,7 @@ resource "aws_ecs_task_definition" "backend" {
       command     = ["CMD-SHELL", "curl -f http://localhost:8000/health || exit 1"]
       interval    = 30
       timeout     = 10
-      startPeriod = 120
+      startPeriod = 300
       retries     = 3
     }
 
