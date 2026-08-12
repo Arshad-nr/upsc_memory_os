@@ -13,7 +13,8 @@ class Settings:
     """Central configuration — all values from .env."""
 
     # ── Database ─────────────────────────────────────────────────
-    DATABASE_URL: str = os.getenv("DATABASE_URL", "")
+    _raw_db_url = os.getenv("DATABASE_URL", "")
+    DATABASE_URL: str = _raw_db_url.replace("postgresql://", "postgresql+asyncpg://", 1) if _raw_db_url.startswith("postgresql://") else _raw_db_url
 
     # ── Gemini ───────────────────────────────────────────────────
     GEMINI_API_KEY_RAW: str = os.getenv("GEMINI_API_KEY", "")
