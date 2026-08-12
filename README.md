@@ -17,14 +17,14 @@ graph LR
         Auth[JWT Auth]
         RAG[RAG Engine]
     end
-    subgraph External Resources
+    subgraph ExternalResources [External Resources]
         DB[(Supabase PostgreSQL)]
         Qdrant[(Qdrant Cloud)]
         LLM[Google Gemini API]
     end
     
-    Browser -->|HTTP/REST| UI
-    UI -->|API Calls (CORS)| API
+    Browser -- "HTTP/REST" --> UI
+    UI -- "API Calls (CORS)" --> API
     API --> Auth
     API --> RAG
     RAG --> Qdrant

@@ -98,7 +98,7 @@ export const api = {
 
   // Revision
   getDashboard: () =>
-    request<{ items: any[]; daysRemaining: number; totalTopics: number }>('/api/v1/revision/dashboard'),
+    request<{ items: any[]; critical?: any[]; stable?: any[]; daysRemaining: number; totalTopics: number }>('/api/v1/revision/dashboard'),
   getRevisionSession: () =>
     request<{ items: any[]; count: number }>('/api/v1/revision/session'),
 };
